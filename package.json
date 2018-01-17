@@ -1,0 +1,24 @@
+{
+  "name": "plug-them-holes",
+  "version": "1.0.0",
+  "description": "Library for plugging holes in an array - Node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfaf/plug-them-holes.git"
+  },
+  "keywords": [],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfaf/plug-them-holes/issues"
+  },
+  "homepage": "https://github.com/gitfaf/plug-them-holes#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jasmine": "^2.8.0"
+  }
+}
