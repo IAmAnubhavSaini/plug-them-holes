@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Node 14",
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

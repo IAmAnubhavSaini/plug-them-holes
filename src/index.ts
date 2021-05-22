@@ -1,5 +1,7 @@
-const notAHole = x => 0 in [x]
+const notAHole = (x: any) => 0 in [x];
 
-const plugThemHoles = array => array.filter(notAHole).map(x => Array.isArray(x) ? plugThemHoles(x) : x)
+const remapFn = (x: any): any => Array.isArray(x) ? plugThemHoles(x) : x;
 
-module.exports = plugThemHoles
+const plugThemHoles = (array: any[]): any => array.filter(notAHole).map(remapFn);
+
+export default plugThemHoles;

@@ -1,10 +1,11 @@
 {
   "name": "plug-them-holes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Library for plugging holes in an array - Node module",
   "main": "src/index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "npm run build && jasmine",
+    "build": "node_modules/.bin/tsc --project tsconfig.json"
   },
   "repository": {
     "type": "git",
