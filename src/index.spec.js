@@ -1,4 +1,4 @@
-const plugThemHoles = require('../index')
+const plugThemHoles = require('./index')
 const expect = require('chai').expect
 
 describe('plug them holes', () => {
