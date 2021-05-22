@@ -2,6 +2,12 @@
 
 Library for plugging holes in an array - Node module
 
+## Changes
+
+- using main branch
+- using typescript
+- using /src directory for code and test
+
 ## Usage
 
 ```javascript
